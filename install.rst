@@ -66,7 +66,6 @@ Running::
 will install the ``postgresql`` library, the required Links PostgreSQL driver,
 and recompile ``links`` to allow it to use the driver.
 
-Running
 
 .. _Opam: https://opam.ocaml.org
 .. _OPAM installation pages: https://opam.ocaml.org/doc/Install.html
