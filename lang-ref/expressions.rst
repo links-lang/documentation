@@ -1,9 +1,6 @@
 Expressions
 ===========
 
-Literals
---------
-
 Binding
 -------
 
@@ -53,3 +50,6 @@ Sorting
 
 Multiple generators
 ~~~~~~~~~~~~~~~~~~~
+
+XML
+---
