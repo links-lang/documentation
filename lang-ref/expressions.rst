@@ -273,7 +273,7 @@ switch must have the same type.
 
 Type-checking will ensure that all possible cases are matched by
 the ``switch`` expression. To handle arbitrary variant values, you can
-add an open case to the end of the switch:
+add an open case to the end of the switch::
 
   switch (target) {
     case Automobile(fuelType) -> 0
