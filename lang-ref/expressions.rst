@@ -199,7 +199,22 @@ to use a particular field name with different types. For example::
 is fine (note that ``price`` has type ``Float`` in record ``x``, but not in
 ``y``).
 
+Field punning
+~~~~~~~~~~~~~
 
+We often wish to update the field of a record with the contents of a variable
+which has the same name::
+
+  var drink = (drinkname="capuccino", price=2.5);
+  var drinkname = "latte";
+  (drink with drinkname = drinkname)
+
+Links offers "record field punning" syntax which allows us to omit the field
+name in such circumstances::
+
+  var drink = (drinkname="capuccino", price=2.5);
+  var drinkname = "latte";
+  (drink with =drinkname)
 
 Variants
 --------
